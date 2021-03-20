@@ -1,0 +1,192 @@
+.navbar{
+    background-color: rgb(0, 255, 234);
+    
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer{
+    background-color: purple;
+    height: 20px;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.todo-list {
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #efefef;
+    box-shadow:
+    /* The top layer shadow */
+        0 1px 1px rgba(0,0,0,0.15),
+            /* The second layer */
+        0 10px 0 -5px #eee,
+            /* The second layer shadow */
+        0 10px 1px -4px rgba(0,0,0,0.15),
+            /* The third layer */
+        0 20px 0 -10px #eee,
+            /* The third layer shadow */
+        0 20px 1px -9px rgba(0,0,0,0.15);
+    padding: 30px;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20px 0;
+    width: 70%;
+    border-bottom: 1px solid #cecece;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #333333;
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+input[type=checkbox]:focus {
+    outline-color: red;
+    outline-style: dotted;
+}
+
+.contact-card{
+    height: 80px;
+    width: 100px;
+    border: dotted;
+    color: white;
+    align-content: center;
+}
+
+/* table {
+    background-color: whitesmoke;
+    border: blue ;
+    width: 100%;
+    
+} */
+table {
+    width: 100%;
+    border: 1px solid black;
+  }
+
+  .id-class {
+    font-size: 270px;
+    text-align: center;
+  }
+
+  .id-class {
+    display:inline-block;
+    color: #444;
+    border:1px solid rgb(185, 32, 32);
+    background:#DDD;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    vertical-align:middle;
+    max-width: 500px;
+    text-align: center;
+ 
+}
+
+.id-class-button {
+    display:inline-block;
+    color: #444;
+    border:1px solid rgb(185, 32, 32);
+    background:#DDD;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    vertical-align:middle;
+    max-height: 500px;
+    text-align: center;
+    height: 320px;
+    
+}
+
+.id-class-button:active {
+    color:red;
+}
+
+.id-class-button:hover {
+    box-shadow: 0 0 12px 2px rgba(13, 194, 28, 0.6);
+}
+
+/* .id-class:active {
+    color:red;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+} */
+
+.id-class:active {
+    color:red;
+}
+
+.id-class:hover {
+    box-shadow: 0 0 12px 2px rgba(13, 194, 28, 0.6);
+}
+
+.card-item{
+    display:flex;
+    color:rgb(42, 5, 85);
+    border:1px solid #CCC;
+    background:rgb(122, 168, 119);
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    vertical-align:middle;
+    max-width: 100%;
+    font-size: 50px;
+}
+
+.card-item:active {
+    color:blue;
+    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.6);
+}
+
+.card-item-name{
+    width: 300px;
+    height: 100px;
+    
+}
+
+.card-item-name:hover{
+    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.6);
+}
+
+
+.card-item-img{
+    width: 100px;
+    height: 100px;
+}
+
+.cards-list{
+    width:50%;
+    text-align:center;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li {
+    display: inline;
+    border: red;
+}
